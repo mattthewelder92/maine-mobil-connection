@@ -15,7 +15,8 @@ No credentials, tax documents, customer photos, or Stripe secret keys are stored
 
 ## Production scope
 
-1. Public service search by ZIP code and 60-mile range
+1. Public service search by selected area or ZIP code and 100-mile range
+2. Opportunity feed rule: each saved ZIP code is refreshed daily at 12:00 PM, collecting only approved/verified source links within 100 miles of that ZIP
 2. Contractor listings and shareable digital business cards
 3. Customer/contractor account creation and confirmation email
 4. Customer job requests with photos, timing, budgets and serious-lead checks
